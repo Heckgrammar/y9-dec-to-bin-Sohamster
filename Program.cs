@@ -15,7 +15,9 @@ namespace Y9_DEC_TO_BIN_SKELETON
             string myString = "12"; //watch me being cast from string to int
             int myStringAsInt = Convert.ToInt32(myString); //watch me cast from string to int
 
-            //MAIN CHALLENGE: WRITE A PROGRAM TO CONVERT ANY INTEGER TO ITS EQUIVALENT BINARY NUMBER
+            int decimalNumber = Convert.ToInt32(Console.ReadLine());
+            string binary = Convert.ToString(decimalNumber, 2);
+            Console.WriteLine(binary);
             //WRITE A CALL TO YOUR NUMBER CONVERSION FUNCTION HERE
             
             
